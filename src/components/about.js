@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import resumeData from '../resumeData';
-import profilePic from '../profilepic.jpg'
+import profilePic from '../profilepic.PNG'
 
 export default class About extends Component {
   render() {

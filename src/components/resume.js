@@ -8,20 +8,6 @@ export default class Resume extends Component {
   render() {
     return (
       <section id="resume">
-
-        {/* <Document
-          file="Feenstra-Resume.pdf"
-        >
-          <Page pageNumber={1} />
-        </Document>
-
-        <div className="resume-link">
-          <a href="Feenstra-Resume.pdf" target="_blank">
-            <button>View PDF File</button>
-          </a>
-        </div> */}
-        
-
         <div className="row education">
 
           <div className="three columns header-col">
@@ -78,19 +64,37 @@ export default class Resume extends Component {
 
 
         <div className="row skill">
-
           <div className="three columns header-col">
             <h1><span>Skills</span></h1>
           </div>
 
           <div className="nine columns main-col">
-
             <p>
-              {resumeData.skillsDescription}
+              {resumeData.skillsProgDescription}
+            </p>
+            <div className="bars">
+              <ul className="skills">
+                {
+                  resumeData.skillsProg && resumeData.skillsProg.map((item, i) => {
+                    return (
+                      <li key={i}>
+                        <span
+                          className={`bar-expand ${item.skillname.toLowerCase()}`}
+                          style={{ width: `${item.level}%` }}
+                        >
+                        </span>
+                        <em>{item.skillname}</em>
+                      </li>
+                    )
+                  })
+                }
+              </ul>
+            </div>
+            <p>
+            {resumeData.skillsDescription}
             </p>
 
             <div className="bars">
-
               <ul className="skills">
                 {
                   resumeData.skills && resumeData.skills.map((item, i) => {
@@ -100,16 +104,14 @@ export default class Resume extends Component {
                           className={`bar-expand ${item.skillname.toLowerCase()}`}
                           style={{ width: `${item.level}%` }}
                         >
-                        </span><em>{item.skillname}</em>
+                        </span>
+                        <em>{item.skillname}</em>
                       </li>
                     )
                   })
                 }
-
               </ul>
-
             </div>
-
           </div>
 
         </div>

@@ -1,99 +1,105 @@
 let resumeData = {
-  name: "Name Namey McNamerson",
+  name: "Dylan McKone",
   role: "Frontend Web Developer",
-  linkedinId:"evanfeenstra",
-  skypeid: "Your skypeid",
-  roleDescription: "asdf  blah blahI like dabbling in various parts of frontend development and like to learn about new technologies, write technical articles or play music in my free time.",
+  linkedinId:"dylan-mckone",
+  roleDescription: "I am a student learning about user experience and usability. Lately, I have been dabbling in front-end web design.",
   socialLinks:[
       {
         name:"linkedin",
-        url:"https://www.linkedin.com/in/evanfeenstra",
+        url:"https://www.linkedin.com/in/dylan-mckone",
         className:"fa fa-linkedin"
       },
       {
         name:"github",
-        url:"http://github.com/",
+        url:"http://github.com/Dylychill",
         className:"fa fa-github"
-      },
-      {
-        name:"skype",
-        url:"http://skype.com",
-        className:"fa fa-skype"
       }
     ],
-  aboutme:"I have finished my B.S. in Human Centered Design and Engineering, and am currently seeking a Web Development position.",
+  aboutme:"I am working toward my B.S. in Human Centered Design and Engineering and a B.A in Germanics. I am currently seeking a internships to learn about user research and web development.",
   address:"Seattle, Washington",
   education:[
     {
       UniversityName:"University of Washington",
       specialization:"Some specialization",
       MonthOfPassing:"June",
-      YearOfPassing:"2019",
-      Achievements:"Some Achievements"
-    },
-    {
-      UniversityName:"Some University",
-      specialization:"Some specialization",
-      MonthOfPassing:"Jan",
-      YearOfPassing:"2018",
-      Achievements:"Some Achievements"
+      YearOfPassing:"2021",
+      Achievements:"Dean's List"
     }
   ],
   work:[
     {
       CompanyName:"UW ",
-      specialization:"Instructor",
-      MonthOfLeaving:"Jan",
-      YearOfLeaving:"2018",
-      Achievements:"Some Achievements"
+      specialization:"TA CSE 154",
+      MonthOfLeaving:"Spring",
+      YearOfLeaving:"2020",
+      Achievements:"Grading coursework and leading section"
     },
     {
-      CompanyName:"Some Company",
-      specialization:"Some specialization",
-      MonthOfLeaving:"Jan",
-      YearOfLeaving:"2018",
-      Achievements:"Some Achievements"
+      CompanyName:"The Daily newspaper UW",
+      specialization:"Design Editor",
+      MonthOfLeaving:"Sep",
+      YearOfLeaving:"2017-",
+      Achievements:""
     }
   ],
-  skillsDescription:"My skills:",
-  skills:[
+  skillsProgDescription:"Programming:",
+  skillsProg:[
     {
       skillname:"Reactjs",
-      level:100,
+      level:50,
+    },
+    {
+      skillname:"JavaScript",
+      level:80,
     },
     {
       skillname:"HTML5",
-      level:70,
+      level:80,
     },
     {
       skillname:"CSS",
-      level: 80,
+      level: 70,
+    },
+    {
+      skillname:"C#/Java",
+      level: 70,
+    },
+  ],
+  skillsDescription:"Design:",
+  skills:[
+    {
+      skillname:"InDesign",
+      level:90,
+    },
+    {
+      skillname:"Photoshop",
+      level:70,
+    },
+    {
+      skillname:"InCopy",
+      level:80,
+    },
+    {
+      skillname:"Illustrator",
+      level: 40,
     },
   ],
   portfolio:[
     {
-      name:"project1",
-      description:"mobileapp",
-      imgurl:"images/portfolio/phone.jpg",
-      title:"Phone App",
-      githubLink:"https://github.com/Evanfeenstra/chatter",
-      fullDescription:"this is a longer description about this app this is a longer description about this app this is a longer description about this app this is a longer description about this app this is a longer description about this app this is a longer description about this app this is a longer description about this app "
+      name:"Daily Design Work",
+      description:"Layout and Graphic Design",
+      imgurl:"images/portfolio/PacificWave_01.jpg",
+      title:"Newspaper Design",
+      githubLink:"https://issuu.com/thedailyuw",
+      fullDescription:"https://issuu.com/thedailyuw Issuu holds PDF version of our print papers. I lead a team of designers and the editorial staff to create the paper spread."
     },
     {
-      name:"asdfasdfasf",
-      description:"mobileapp",
-      imgurl:"images/portfolio/weatherer.png",
-      title:"Something",
-      githubLink:"https://github.com",
-      fullDescription:"this is a longer description about this app"
-    },
-    {
-      name:"project3",
-      description:"mobileapp",
-      imgurl:"images/portfolio/chatter.jpg",
-      title:"Hello",
-      githubLink:"https://github.com",
-      fullDescription:"this is a longer description about this app"
+      name:"Chat Central",
+      description:"Mobile app",
+      imgurl:"images/portfolio/Chatapp.png",
+      title:"ChatApp",
+      githubLink:"https://github.com/Dylychill/chatapp",
+      fullDescription:"A basic mobile chat app made with React"
     },
   ],
 }
